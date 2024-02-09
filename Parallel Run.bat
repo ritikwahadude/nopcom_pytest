@@ -1,0 +1,3 @@
+pytest -v -n=5 -m sanity --html=HtmlReports/myreport_chrome.html --alluredir="C:\Users\RITIK WAHADUDE\PycharmProjects\nopcom_Pytest" --browser chrome  -p no:warnings
+pytest -v -n=5 -m sanity --html=HtmlReports/myreport_edge.html --alluredir="C:\Users\RITIK WAHADUDE\PycharmProjects\nopcom_Pytest" --browser edge  -p no:warnings
+pytest -v -n=5 -m sanity --html=HtmlReports/myreport_firefox.html --alluredir="C:\Users\RITIK WAHADUDE\PycharmProjects\nopcom_Pytest" --browser firefox  -p no:warnings
